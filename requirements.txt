@@ -1,0 +1,12 @@
+# URL Directory Downloader 依赖
+# CLI 版本无需第三方库（只用标准库）
+# GUI 版本需要以下库（打 EXE/APK 时用）
+
+# --- 通用 ---
+requests>=2.31.0
+
+# --- Kivy (APK) ---
+kivy>=2.3.0
+
+# --- PyInstaller (EXE) ---
+# pyinstaller>=6.0
